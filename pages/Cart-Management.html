@@ -5,41 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Management</title>
+    <link rel="stylesheet" href="../style-guide/Cart-Management.css">
 </head>
 <body>
     <header class="navbar">
-        <img src="" alt="Logo">
+        <a href="/pages/Home.html">VinylKart</a>
         <div class="search">
-            <span>X</span>
+            <span>Search</span>
             <input type="search" name="" id="">
         </div>
         <ul class="nav-list">
-            <li><button>Login</button></li>
-            <li class="list-inline"><a href="">Wishlist</a></li>
-            <li class="list-inline"><a href="">Kart</a></li>
+            <li class="list-inline"><a href="../pages/Login-Page.html">Login</a></li>
+            <li class="list-inline"><a href="../pages/Product-Listing.html">Products</a></li>
+            <li class="list-inline"><a href="../pages/Wishlist-Management.html">Wishlist</a></li>
+            <li class="list-inline"><a href="../pages/Cart-Management.html"></a>Cart</a></li>
         </ul>
     </header>
     <main>
         <h2>My Cart</h2>
-        <div class="cart-container">
-            <div class="product-container">
-                <div class="img-product">
-                    <img src="" alt="">
+        <div class="grid-container obj-two">
+            <div class="cart-container">
+                <div class="product-container">
+                    <div class="img-product">
+                        <img src="/Assets/iu-3.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <h3>Beatles Vinyl</h3>
+                        <h4>Rs.2000</h4>
+                        <label for="">Qunatity</label>
+                            <input type="number">
+                        <button class="btn-rmv-cart">Remove From Cart</button>
+                        <button class="wishlist">Add to Wishlist</button>
+                    </div>
                 </div>
-                <div class="product-details">
-                    <h3>Beatles Vinyl</h3>
-                    <h4>Rs.2000</h4>
-                    <label for="">Qunatity</label>
-                        <input type="number">
-                    <button class="btn-rmv-cart">Remove From Cart</button>
-                    <button class="wishlist">Add to Wishlist</button>
+                <div class="bill-container">
+                    <h3>Price Details</h3>
+                    <button class="btn-pay">Place Order</button>
                 </div>
             </div>
-            <div class="bill-container">
-                <h3>Price Details</h3>
-
-
-                <button class="btn-pay">Place Order</button>
+            <div class="price-container">
+                <h2>Price Details</h2>
+                <div class="Price-items"></div>
+                <div class="delivery"></div>
+                <div class="total-price"></div>
+                <div class="place-order"></div>
             </div>
         </div>
     </main>

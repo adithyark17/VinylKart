@@ -148,9 +148,7 @@ img {
     width: 100%;
 }
 
-
 hr {
-    color: var(--black);
     margin: 1rem;
 }
 
@@ -170,7 +168,7 @@ hr {
     margin-top: 0.5rem;
 }
 
-.quant {
+.item-quantity {
     font-size: 1.5rem;
     margin-top: 1rem;
 }

@@ -80,7 +80,6 @@ footer {
     background-color: var(--tertiary-color);
     color: var(--black);
     padding: 2rem;
-    position: fixed;
     left: 0;
     bottom: 0;
     height: 40px;
@@ -106,29 +105,106 @@ footer {
 }
 
 .cart-container {
+    display: flex;
+    flex-direction: row;
     width: 50%;
-    border: 2px solid black;
 
 }
 
-/* .container {
+.price-container {
+    width: 50%;
+}
+
+.price-items {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.horizontal-card {
+    display: flex;
+    background-color: var(--tertiary-color);
+    flex-direction: row;
+    width: 50%;
+    border: 4px solid var(--black);
+    border-radius: 6px;
+    box-shadow: 2px 2px grey;
+}
+
+.card-left {
+    width: 50%;
+}
+
+.card-right {
+    flex-direction: column;
+}
+
+.card-body {
+    margin: 1rem;
+    width: 100%;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.price-card {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    width: 50%;
-    align-items: center;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    width: 30%;
+    border: 3px solid var(--black);
+    border-radius: 5px;
 }
 
-.center {
-    margin: auto;
-    position: relative;
+.card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.item-quantity {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.btn-remove {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
     text-align: center;
-    top: 50%;
-    width: 20%;
-} */
 
-.grid-container {}
+}
 
-.obj-two {
-    grid-template-columns: repeat(2, 1fr);
+.price,
+.del,
+.total-amt {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.btn-wishlist {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-order {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    padding: 0.5rem;
 }

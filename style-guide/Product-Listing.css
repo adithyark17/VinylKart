@@ -13,8 +13,8 @@
 
 .navbar {
     display: flex;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--tertiary-color);
+    color: var(--black);
     text-decoration: none;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
 
 a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
 }
 
 li {
@@ -57,17 +57,15 @@ main {
     width: 100%;
 }
 
-.filters {
-    background-color: var(--tertiary-color);
-    padding: 1rem;
-    border-right: 3px solid black;
+button {
+    padding: 0.5rem;
+    margin: 1rem;
 }
 
-.filter-clear {
-    color: var(--black);
-    margin: 0.5rem;
-    padding-left: 2rem;
+.details {
+    margin: 1rem;
 }
+
 
 h2 {
     margin: 0.25rem;
@@ -75,9 +73,10 @@ h2 {
 
 
 footer {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--tertiary-color);
+    color: var(--black);
     padding: 2rem;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 40px;
@@ -100,4 +99,20 @@ footer {
 .nav-list {
     display: flex;
     list-style: none;
+}
+
+.filters {
+    background-color: var(--tertiary-color);
+    padding: 1rem;
+    border-right: 3px solid black;
+}
+
+.filter-clear {
+    color: var(--black);
+    margin: 0.5rem;
+    padding-left: 2rem;
+}
+
+h2 {
+    margin: 0.25rem;
 }

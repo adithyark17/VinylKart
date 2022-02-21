@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="../style-guide/Sign-up.css">
 </head>
 <body>
     <header class="navbar">
-        <img src="" alt="Logo">
+        <a href="/pages/Home.html">VinylKart</a>
         <div class="search">
-            <span>X</span>
+            <span>Search</span>
             <input type="search" name="" id="">
         </div>
         <ul class="nav-list">
-            <li><button>Login</button></li>
-            <li class="list-inline"><a href="">Wishlist</a></li>
-            <li class="list-inline"><a href="">Kart</a></li>
+            <li  class="list-inline"><a href="../pages/Login-Page.html">Login</a></li>
+            <li class="list-inline"><a href="/pages/Wishlist-Management.html">Wishlist</a></li>
+            <li class="list-inline"><a href="/pages/Cart-Management.html">Cart</a></li>
         </ul>
     </header>
     <main>
@@ -24,13 +25,17 @@
             <h2>Welcome to VinylKart</h2>
             <div class="details">
                 <label for="">Name</label>
-                    <input type="text">
+                <input type="text">
+            <div class="details">
                 <label for="">Email Address</label>
-                    <input type="email">
+                <input type="email">
+            </div>
+            <div class="details">
                 <label for="">Enter password</label>
-                    <input type="password">
-                <label for="">I accept all the Terms and Conditions</label>
-                <input type="radio">
+                <input type="password">
+            </div>
+            <label for="">I accept all the Terms and Conditions</label>
+            <input type="radio">
             </div>
            <button class="submit">Sign Up</button>
         </div>

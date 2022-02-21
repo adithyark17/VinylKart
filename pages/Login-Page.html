@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/style-guide/Login-Page.css">
 </head>
 <body>
     <header class="navbar">
-        <img src="" alt="Logo">
+        <a href="../pages/Home.html">VinylKart</a>
         <div class="search">
-            <span>X</span>
+            <span>Search</span>
             <input type="search" name="" id="">
         </div>
         <ul class="nav-list">
-            <li><button>Login</button></li>
-            <li class="list-inline"><a href="">Wishlist</a></li>
-            <li class="list-inline"><a href="">Kart</a></li>
+            <li class="list-inline"><a href="../pages/Login-Page.html">Login</a></li>
+            <li class="list-inline"><a href="../pages/Wishlist-Management.html">Wishlist</a></li>
+            <li class="list-inline"><a href="../pages/Cart-Management.html">Cart</a></li>
         </ul>
     </header>
     <main>
-        <div class="container">
+        <div class="container center">
             <h2>Login to VinylKart</h2>
             <div class="details">
                 <label for="">Email Address</label>
                     <input type="email">
-                <label for="">Enter password</label>
-                    <input type="password">
             </div>
-            <a href="">Dont have an account?</a>
+            <div class="details">
+                <label for="">Enter password</label>
+                <input type="password">
+            </div>
+            <a href="../pages/Sign-up.html">Dont have an account?</a>
            <button class="submit">Login</button>
         </div>
     </main>

@@ -23,34 +23,49 @@
     </header>
     <main>
         <h2>My Cart</h2>
-        <div class="grid-container obj-two">
-            <div class="cart-container">
-                <div class="product-container">
-                    <div class="img-product">
-                        <img src="/Assets/iu-3.jpeg" alt="">
-                    </div>
-                    <div class="product-details">
-                        <h3>Beatles Vinyl</h3>
-                        <h4>Rs.2000</h4>
-                        <label for="">Qunatity</label>
-                            <input type="number">
-                        <button class="btn-rmv-cart">Remove From Cart</button>
-                        <button class="wishlist">Add to Wishlist</button>
+        <div class="grid obj-two">
+            <div class="horizontal-card">
+                <div class="card-left">
+                    <img src="/Assets/iu-8.jpeg" alt="">
+                </div>
+                <div class="card-right">
+                    <div class="card-body">
+                        <h1 >Vinyl</h1>
+                        <div class="card-price">
+                            Rs.2000
+                        </div>
+                        <div class="quant">
+                            Quantity
+                            <input class="item-quantity" type="number">
+                        </div>
+                        <div class="btn-remove">
+                            Remove From Cart
+                        </div>     
+                        <div class="btn-wishlist">
+                           Add to Wishlist
+                        </div>                
                     </div>
                 </div>
-                <div class="bill-container">
-                    <h3>Price Details</h3>
-                    <button class="btn-pay">Place Order</button>
+            </div>
+            <div class="price-card">
+                <h1>Price Details</h1>
+                <hr>
+                <div class="price">
+                    Price - Rs.2000
+                </div>
+                <div class="del">
+                    Delivery charges - Rs.180
+                </div>
+                <div class="total-amt">
+                    Total Amount - Rs.2180
+                </div>
+                <div class="btn-order">
+                    place order
                 </div>
             </div>
-            <div class="price-container">
-                <h2>Price Details</h2>
-                <div class="Price-items"></div>
-                <div class="delivery"></div>
-                <div class="total-price"></div>
-                <div class="place-order"></div>
-            </div>
+    
         </div>
+        
     </main>
     <footer>
         <div class="txt-footer">Developed by Adithya Rajesh</div>

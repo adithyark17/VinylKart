@@ -43,12 +43,10 @@ main {
     margin: 2rem;
 }
 
+
 .filters-list {
     display: flex;
 }
-
-
-
 
 .main-container {
     display: flex;
@@ -58,8 +56,11 @@ main {
 }
 
 button {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
     margin: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .details {
@@ -68,7 +69,7 @@ button {
 
 
 h2 {
-    margin: 0.25rem;
+    margin: 0.5rem;
 }
 
 
@@ -76,7 +77,6 @@ footer {
     background-color: var(--tertiary-color);
     color: var(--black);
     padding: 2rem;
-    position: fixed;
     left: 0;
     bottom: 0;
     height: 40px;
@@ -102,8 +102,9 @@ footer {
 }
 
 .filters {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     padding: 1rem;
+    height: 60rem;
     border-right: 3px solid black;
 }
 
@@ -113,6 +114,62 @@ footer {
     padding-left: 2rem;
 }
 
+/* Cards Css */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: var(--white);
+    margin: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+button {
+    padding: .5rem;
+    margin: .25rem;
+    margin-top: 1rem;
+}
+
 h2 {
-    margin: 0.25rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+.primary-btn {
+    background-color: var(--tertiary-color);
+}
+
+.cancel {
+    margin: 1rem;
+
+
+}
+
+.shadow {
+    box-shadow: 10px 5px 5px gray;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    justify-content: space-between;
+}
+
+.obj-two {
+    grid-template-columns: repeat(3, 1fr);
 }
